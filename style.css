@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #2B3333;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2B3333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header .contact-btn {
+    background-color: #20B8C0;
+    /* Primary button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .contact-btn:hover {
+    background-color: #329196;
+}
+
+section {
+    padding: 100px 20px;
+}
+
+
+#hero {
+    height: calc(100vh - 60px);
+    background-color: #36686B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #2B4041;
+    /* Darker section background */
+}
+
+.project-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #329196;
+    /* Card background with teal tone */
+    color: white;
+    /* Light text on cards */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1)0px4 px6 px;
+    padding: 20 px;
+    width: 300 px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #2B4041;
+    color: #ffffff;
+}
